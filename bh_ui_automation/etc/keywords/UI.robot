@@ -3,7 +3,7 @@
 Library    ../library/Webdriversync.py
 Library    SeleniumLibrary
 Library    String
-Resource    ../Page_Object/UIObject.robot
+Resource    ../page_object/UIObject.robot
 
 *** Variables ***
 
