@@ -1,1 +1,21 @@
-
+*** Variables ***
+${url}    https://www.brighthorizons.com/
+${accept_cookies}    //*[@id="onetrust-accept-btn-handler"]
+${bh_image}    (//div[@class='visible-lg-inline'])[2]
+${search_icon}    (//span[@class='icon-search bhc-icon-search-rounded'])[4]
+${search_input_text}    (//input[contains(@class,'js-nav-search-field nav-search-input')])[2]
+${search_button}    (//button[@class='btn btn-large btn-solid color-buttercup btn-search'])[2]
+${search_title}    //h3[@class='title']
+${search_string_result}    //span[@class='showing']
+${first_search_string}    //h3[@class='title'][1]
+${find_center_element}    (//a[contains(@data-tracking-cta,'Find a Center,/child-care-locator,header')])[4]
+${search_center_element}    //input[@placeholder='Address, City, State or Zip']
+${search_center_count}    //div[contains(@class,'centerDetails results')]
+${first_center_result}    (//h3[contains(@class,'centerResult__name')])[1]
+${first_center_result_name}    (//h3[contains(@class,'centerResult__name')])[1]
+${center_on_tooltip}    //span[contains(@class,'mapTooltip__headline')]
+${center_name_from_maptooltip}    //span[contains(@class,'mapTooltip__headline')]
+${first_center_result_address}    (//span[contains(@class,'centerResult__address')])[1]
+${center_address_from_maptooltip}    //div[contains(@class,'mapTooltip__address')]
+${search_result}    //h3[@class='centerResult__name'][contains(.,'Bright Horizons')]
+${center_results}    //div[@class='centerDetails results']
