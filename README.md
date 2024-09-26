@@ -6,7 +6,7 @@ This repo has code for automation of Bright Horizon webpages
     * **etc**
         * **keywords** : Robotframework keywords files pagewise used by the test cases 
         * **library** : Python librairies and robot file used to import all installed librairies
-		    * **Page_Object** : Locators pagewise      
+	* **Page_Object** : Locators pagewise      
 
 
 ## Local Installation
@@ -20,7 +20,7 @@ Install Python 3.10 or higher
 `pip3 install -r pip-requirements.txt` 
 
 ## Execution
-Tests can be executed through Visual Studio or through command line using below command:  
+Tests can be executed through command line using below command:  
 Navigate to project path before bin folder and open command promt. Hit the command
 `robot --test <testname>`
 
