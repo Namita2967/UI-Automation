@@ -16,8 +16,6 @@ def get_chromedriver_path(show_wdm_logs=False):
     
     
 def get_gekodriver_path(show_wdm_logs=False):
-	#   glpat-sGote4AnxuKB1qfz1SaF
-    os.environ['GH_TOKEN'] = "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"
     if	not show_wdm_logs:
     	driver_path = GeckoDriverManager().install()
     else:
